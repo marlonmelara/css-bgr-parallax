@@ -1,0 +1,44 @@
+body {
+  background-color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container__attachment {
+  width: 40%;
+  height: 25rem;
+  margin-top: 12.5rem;
+  background-image: url(../img/code-laptop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.container__attachment--fixed {
+  background-attachment: fixed; /** Parallax efect **/
+}
+
+.container__h1,
+.container__p {
+  text-align: center;
+}
+
+.container__h1 {
+  margin-top: 6.25rem;
+  font-size: 3.125rem;
+  color: aliceblue;
+}
+
+.container__p {
+  font-size: 2rem;
+  color: lightcoral;
+}
+
+.space {
+  height: 3000px; /* Only to have scroll on the screen */
+}
